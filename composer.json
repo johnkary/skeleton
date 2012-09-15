@@ -1,0 +1,16 @@
+{
+    "description": "Examples of using Symfony EventDispatcher and Zend EventManager",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "John Kary",
+            "email": "john@johnkary.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    }
+}
