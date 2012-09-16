@@ -1,10 +1,10 @@
 {
-    "description": "Examples of using Symfony EventDispatcher and Zend EventManager",
+    "description": "Your description here",
     "license": "MIT License",
     "authors": [
         {
-            "name": "John Kary",
-            "email": "john@johnkary.net"
+            "name": "Your Name",
+            "email": "your@email.com"
         }
     ],
     "minimum-stability": "dev",
