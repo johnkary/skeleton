@@ -1,6 +1,7 @@
-# Project Name
+# PHP Project Skeleton
 
-Project Description
+Basic project structure for a PSR-0 compliant PHP application. Already
+setup with an example class and test case to show you the way.
 
 ## Installation
 
@@ -17,8 +18,6 @@ manage its dependencies. Start by downloading composer:
 3. Install project dependencies:
 
         php composer.phar install
-
-4. Execute project by doing... ?
 
 ## Running tests
 
