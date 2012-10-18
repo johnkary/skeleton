@@ -22,8 +22,8 @@ To execute this project's test suite:
 
         php composer.phar update --dev
 
-2. Optionally copy and configure `phpunit.xml.dist` and configure for your
-project's environment:
+2. Optionally copy and configure `phpunit.xml.dist` for your project's
+environment:
 
         cp phpunit.xml.dist phpunit.xml
         vi phpunit.xml
