@@ -5,19 +5,14 @@ setup with an example class and test case to show you the way.
 
 ## Installation
 
-1. Clone project and change into the cloned directory.
-
-        git clone ...
-        cd ...
-
-2. This project uses [Composer Package Manager](http://getcomposer.org/) to
-manage its dependencies. Start by downloading composer:
+1. This project manages its dependencies with [Composer](http://getcomposer.org/).
+Start by installing Composer:
 
         curl -s http://getcomposer.org/installer | php
 
-3. Install project dependencies:
+2. Install project dependencies:
 
-        php composer.phar install
+        php composer.phar create-project johnkary/php-skeleton
 
 ## Running tests
 
