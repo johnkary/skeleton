@@ -1,5 +1,5 @@
 {
-    "name": "johnkary/skeleton",
+    "name": "johnkary/php-skeleton",
     "description": "Base project skeleton for a PSR-0 compliant PHP 5.3 project",
     "keywords": ["skeleton"],
     "homepage": "https://github.com/johnkary/skeleton",
