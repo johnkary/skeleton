@@ -23,26 +23,23 @@ manage its dependencies. Start by downloading composer:
 
 To execute this project's test suite:
 
-1. Install PHPUnit 3.6.10+:
+1. Install dev-requirements using Composer:
 
-        pear channel-discover pear.phpunit.de
-        pear channel-discover components.ez.no
-        pear channel-discover pear.symfony-project.com
-        pear install phpunit/PHPUnit
+        php composer.phar update --dev
 
-2. Optionally copy and configure `phpunit.xml.dist` specifically for your
-environment:
+2. Optionally copy and configure `phpunit.xml.dist` and configure for your
+project's environment:
 
         cp phpunit.xml.dist phpunit.xml
         vi phpunit.xml
 
 3. Run the test suite:
 
-        phpunit
+        ./vendor/bin/phpunit
 
 ### Generating code coverage:
 
-1. Ensure Xdebug is installed and configured for PHP.
+1. Ensure Xdebug is installed and configured.
 2. Execute PHPUnit:
 
-        phpunit --coverage-html=coverage/
+        ./vendor/bin/phpunit --coverage-html=coverage/
