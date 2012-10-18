@@ -10,9 +10,12 @@ Start by installing Composer:
 
         curl -s http://getcomposer.org/installer | php
 
-2. Install project dependencies:
+2. Create project skeleton:
 
         php composer.phar create-project johnkary/php-skeleton
+
+3. Start developing your own project by adding your own project's
+   dependencies to `composer.json`
 
 ## Running tests
 
