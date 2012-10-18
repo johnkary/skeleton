@@ -7,7 +7,9 @@
     "authors": [
         {
             "name": "John Kary",
-            "email": "john@johnkary.net"
+            "email": "john@johnkary.net",
+            "homepage": "http://johnkary.net",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
