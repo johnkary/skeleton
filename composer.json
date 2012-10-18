@@ -1,10 +1,13 @@
 {
-    "description": "Your description here",
-    "license": "MIT License",
+    "name": "johnkary/skeleton",
+    "description": "Base project skeleton for a PSR-0 compliant PHP 5.3 project",
+    "keywords": ["skeleton"],
+    "homepage": "https://github.com/johnkary/skeleton",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your@email.com"
+            "name": "John Kary",
+            "email": "john@johnkary.net"
         }
     ],
     "minimum-stability": "dev",
