@@ -1,7 +1,8 @@
 # PHP Project Skeleton
 
-Basic project structure for a PSR-0 compliant PHP application. Already
-setup with an example class and test case to show you the way.
+Basic project structure for a PSR-0 compliant PHP application.
+
+Shows example of using Composer with a library that does not support Composer.
 
 ## Installation
 
@@ -14,8 +15,9 @@ Start by installing Composer:
 
         php composer.phar create-project johnkary/php-skeleton
 
-3. Start developing your own project by adding your own project's
-   dependencies to `composer.json`
+3. Update dependencies:
+
+        php composer.phar update
 
 ## Running tests
 

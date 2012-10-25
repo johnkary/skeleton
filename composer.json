@@ -14,7 +14,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.3",
+        "html2pdf/html2pdf-php5": "4.03"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.x-dev"
@@ -23,5 +24,21 @@
         "psr-0": {
             "": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "html2pdf/html2pdf-php5",
+                "version": "4.03",
+                "dist": {
+                    "url": "http://sourceforge.net/projects/phphtml2pdf/files/release/html2pdf_v4.03_php5.zip/download?use_mirror=superb-dca3",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
+        }
+    ]
 }
