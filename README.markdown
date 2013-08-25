@@ -14,24 +14,20 @@ Start by installing Composer:
 
         php composer.phar create-project johnkary/php-skeleton
 
-3. Start developing your own project by adding your own project's
-   dependencies to `composer.json`
+3. Start developing your own project by creating new files in `src` and
+searching for libraries on [Packagist](http://packagist.org)
 
 ## Running tests
 
 To execute this project's test suite:
 
-1. Install dev-requirements using Composer:
-
-        php composer.phar update --dev
-
-2. Optionally copy and configure `phpunit.xml.dist` for your project's
+1. Optionally copy and configure `phpunit.xml.dist` for your project's
 environment:
 
         cp phpunit.xml.dist phpunit.xml
         vi phpunit.xml
 
-3. Run the test suite:
+2. Run the test suite:
 
         ./vendor/bin/phpunit
 
