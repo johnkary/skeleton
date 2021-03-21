@@ -15,6 +15,7 @@ example namespace, PHPUnit test suite, web-accessible front controller.
         $ php -S 127.0.0.1:8000 -t www
 
 4. Open <http://127.0.0.1:8000> to access `www/index.php`
+5. Run `php bin/console` to access command-line scripts
 
 ## Running test suite
 
