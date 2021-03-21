@@ -1,7 +1,8 @@
 # PHP Project Skeleton
 
 Basic PHP project structure for a PHP 7.2+ application. Pre-configured with an
-example namespace, PHPUnit test suite, web-accessible front controller.
+example namespace, PHPUnit test suite, web-accessible front controller, and
+command-line application.
 
 ## Installation
 
