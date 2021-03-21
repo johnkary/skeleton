@@ -9,7 +9,9 @@ command-line application.
 1. Install [Composer](http://getcomposer.org/) package manager.
 2. Create project skeleton:
 
-        $ composer create-project johnkary/php-skeleton
+        $ composer create-project johnkary/php-skeleton your-new-project-dir
+        $ cd !$
+        $ git init
 
 3. Start PHP's built-in web server:
 
