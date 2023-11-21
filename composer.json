@@ -1,6 +1,6 @@
 {
     "name": "johnkary/php-skeleton",
-    "description": "Base project skeleton for a PHP 7.2+ project",
+    "description": "Base project skeleton for a PHP 8.1+ project",
     "keywords": ["PHP", "example", "project", "skeleton"],
     "homepage": "https://github.com/johnkary/skeleton",
     "license": "MIT",
