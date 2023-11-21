@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme;
+namespace App;
 
 class Hello
 {

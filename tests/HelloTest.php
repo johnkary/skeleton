@@ -1,8 +1,8 @@
 <?php
 
-namespace Acme\Tests;
+namespace App\Tests;
 
-use Acme\Hello;
+use App\Hello;
 use PHPUnit\Framework\TestCase;
 
 class HelloTest extends TestCase

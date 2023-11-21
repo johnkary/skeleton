@@ -7,6 +7,6 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new Acme\Command\HelloCommand());
+$application->add(new App\Command\HelloCommand());
 
 $application->run();
